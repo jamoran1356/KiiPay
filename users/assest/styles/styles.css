@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    margin-top: 150px;
+}
+
+.contenedor_box{
+    margin: 0 auto;
+    padding: 0 auto;
+    margin-top: 25px;
+    width: 600px;   
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px 10px;
+    
+}
+.options{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+.rtbtn{
+    width: 25px;
+    height: 25px;
+    display: grid;
+    place-items: center;
+    border-radius: 3px;
+    border: none;
+    background-color: #fff;
+    outline: none;
+    color: #020929;
+}
+select{
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    font-size: 0.7rem;
+}
+.options label,
+.options select{
+    font-family: "Poppins", sans-serif;
+    font-size: 0.7rem;
+}
+.input-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+input[type="color"]{
+    appearance: auto;
+    background-color: transparent;
+    width: 28px;
+    height: 28px;
+    border: none;
+    cursor: pointer;
+}
+#contenido{
+    margin-top: 10px;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    height: 30vh;
+    overflow: hidden;
+
+}
+.activebtn{
+    background-color: #e0e9ff;
+}
+
+div {
+    position: relative;
+}
+img {
+float: left;
+margin: 10px;
+}
+
+.btnenviar{
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    margin-top: 50px;
+    background-color: #338cf4;
+    width: 120px;
+    height: 45px;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btnenviar:hover{
+    background-color: #020929;
+}
+
+.wsbtbn{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #464444;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.wsbtbn img{
+    width: 20px;
+    height: 20px;
+}
+
+
