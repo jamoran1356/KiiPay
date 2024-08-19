@@ -4,10 +4,10 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Panel administrativo de la empresa PYDTI, para manejo de clientes, productos y servicios">
 	<meta name="author" content="PYDTI, Programación y Desarrollo de Tecnologia de Informacion">
-	<meta name="keywords" content="Panel administrativo PYDTI V1.03.23">
-	<title>Área administrativa SOPROCERT</title>
+	<title>KiiPay - Simple Blockchain Integration for Your Website</title>
+    <meta name="description" content="KiiPay offers a simple and efficient solution for integrating blockchain payments into your website. No coding required! Start accepting cryptocurrencies today.">
+    <meta name="keywords" content="blockchain payments, cryptocurrency, SDK, integration, website, easy, simple">
 	<link rel="icon" type="image/webp" sizes="48x48" href="assest/images/favicon.webp">
 	<link href="assest/css/app.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
@@ -42,10 +42,7 @@
 											<!--small class="recuperar mt-25"><a href="#">Recuperar clave</a> </small-->
 										</div>
 										<div>
-										<div class="mb-3 hide" id="captcha">
-                                			<div class="g-recaptcha" data-sitekey="" id="g-recaptcha">
-											</div>
-                            			</div>	
+										
 											<!--label class="form-check">
             <input class="form-check-input" type="checkbox" value="remember-me" name="remember-me" checked>
             <span class="form-check-label">
@@ -57,6 +54,21 @@
 											<button type="submit" class="btn btn-lg btn-primary" id="btnlogin">Iniciar sesión</button>
 										</div>
 									</form>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col-md-12">
+									<h1 class="text-center mt-25">Ingresa con</h1>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12 dflex">
+										<ul>
+											<li><button class="google-button">google</button></li>
+											<li><button class="google-button">twitter</button></li>
+											<li><button class="google-button">Facebook</button></li>
+										</ul>
+									</div>
 								</div>
 							</div>
 						</div>

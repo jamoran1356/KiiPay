@@ -4,7 +4,7 @@ class ConexionBDD {
 private $strhost = "localhost";         
 private $strUser = "root";
 private $strPass = "";
-private $strDataBase = "control";
+private $strDataBase = "kiipay";
 private $connect;
 
 function __construct(){
